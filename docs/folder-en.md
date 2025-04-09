@@ -1,5 +1,7 @@
 # Folder Structures for Angular Projects
 
+Read the [original post](https://dev.to/gydunhn/optimizing-folder-structure-in-angular-projects-233k) for this documentation
+
 ## Introduction
 
 Angular, as a framework, comes with a predefined structure. However, we can adapt it to apply the concepts of Screaming Architecture and create a folder organization that better reflects the business purpose of the application.

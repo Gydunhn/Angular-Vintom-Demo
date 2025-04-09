@@ -1,5 +1,7 @@
 # Estructuras de Carpetas para Proyectos Angular
 
+Lee el [post original](https://medium.com/@gydunhn/estructura-de-carpetas-en-angular-28549ef068e8) de esta documentacion
+
 ## Introducción
 
 Angular, como framework, ya viene con una estructura predefinida. Sin embargo, podemos adaptarla para aplicar los conceptos de Screaming Architecture y crear una organización de carpetas que refleje mejor el propósito de negocio de la aplicación.

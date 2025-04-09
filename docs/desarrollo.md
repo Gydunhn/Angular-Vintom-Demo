@@ -1,5 +1,7 @@
 # Vintom en Angular 19: Creando Videos Personalizados con Seguridad de Datos
 
+Lee el [post original](https://medium.com/@gydunhn/angular-vintom-7dc4a2d2330d) de esta documentacion
+
 ## Solución de Video Personalizado
 
 Hoy quiero compartir con ustedes un proyecto que acabo de completar: una prueba de concepto (POC) que integra la herramienta Vintom para videos personalizados con Angular 19. Si estás buscando una forma de implementar videos personalizados y dinamicos en tus aplicaciones Angular manteniendo el control total sobre los datos de tus usuarios, este artículo es para ti.
