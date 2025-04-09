@@ -1,0 +1,25 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "Gydunhn.vsc-essentials",
+    "aaron-bond.better-comments",
+    "Gruntfuggly.todo-tree",
+    "DotJoshJohnson.xml",
+    "bierner.markdown-checkbox",
+    "bierner.emojisense",
+    "bierner.markdown-emoji",
+    "DavidAnson.vscode-markdownlint",
+    "yzhang.markdown-all-in-one",
+    "firefox-devtools.vscode-firefox-debug",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "IBM.output-colorizer",
+    "WallabyJs.console-ninja",
+    "usernamehw.errorlens",
+    "kisstkondoros.vscode-gutter-preview",
+  ],
+  "unwantedRecommendations": [
+    "ms-edgedevtools.vscode-edge-devtools"
+  ]
+}
