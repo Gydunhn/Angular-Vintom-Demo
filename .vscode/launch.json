@@ -1,0 +1,65 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Firefox",
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "preLaunchTask": "npm: start",
+      "url": "http://localhost:4300/",
+      "pathMappings": [
+        {
+          "url": "http://localhost:4300/",
+          "path": "${workspaceFolder}"
+        }
+      ],
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Attach Firefox",
+      "type": "firefox",
+      "request": "attach",
+      "url": "http://localhost:4300/",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Firefox (Test)",
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "preLaunchTask": "npm: test",
+      "url": "http://localhost:9876/debug.html",
+      "pathMappings": [
+        {
+          "url": "http://localhost:9876/",
+          "path": "${workspaceFolder}"
+        }
+      ],
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "npm: start",
+      "url": "http://localhost:4300/",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Attach Chrome",
+      "type": "chrome",
+      "request": "attach",
+      "url": "http://localhost:4300/",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Launch Chrome (Test)",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "npm: test",
+      "url": "http://localhost:9876/debug.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
